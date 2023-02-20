@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   FaBars,
   FaFacebook,
@@ -6,7 +6,7 @@ import {
   FaGooglePlusG,
   FaInstagram,
 } from "react-icons/fa";
-import { BsChatSquareDots } from "react-icons/bs";
+
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
